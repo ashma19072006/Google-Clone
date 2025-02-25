@@ -6,13 +6,14 @@ body{
 img{
     width:400px;
     display: block;
+    margin-bottom: 10px;
 }
 input{
+    display: block;
     width:500px;
     height:40px;
     border-radius:20px;
     border:0px;
-    /* border : none; */
     padding:5px 10px;
     box-shadow: 1px 1px 5px 2px rgb(206, 203, 203) ;
 
