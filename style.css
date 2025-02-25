@@ -4,6 +4,7 @@ body{
     padding:100px;
 }
 img{
+    text-align: inherit;
     width:400px;
     display: block;
     margin-bottom: 10px;
