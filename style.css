@@ -5,8 +5,8 @@ body{
 }
 img{
     width:400px;
+    display: block;
 }
-
 input{
     width:500px;
     height:40px;
