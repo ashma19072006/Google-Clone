@@ -1,29 +1,35 @@
 body{
-    background-color: white;
-    text-align:center ;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
     padding:100px;
 }
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 img{
-    text-align: inherit;
     width:400px;
-    display: block;
-    margin-bottom: 10px;
 }
 input{
-    display: block;
     width:500px;
     height:40px;
     border-radius:20px;
     border:0px;
     padding:5px 10px;
     box-shadow: 1px 1px 5px 2px rgb(206, 203, 203) ;
-
+}
+.btn{
+    display:flex;
+    flex-direction:row;
 }
 button{
-    margin-top:15px;
+    margin-top:0px;
     margin-right:5px;
     border-radius:8px;
     border: 0px;
-    
     padding: 10px 20px;
+}
+button:hover{
+    background-color:rgb(195, 191, 191);
 }
